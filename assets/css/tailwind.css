@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+    .app-container {
+        @apply px-10 lg:px-[100px] xl:px-[150px] 2xl:px-[200px] 3xl:px-[300px] mx-auto;
+    }
+    .active-nav {
+        @apply bg-black pb-1 rounded-md cursor-default
+    }
+    .active-nav-responsive{
+        @apply bg-first pb-1 rounded-md cursor-default
+
+    }
+}
+
+@layer base {
+    html {
+      font-family: "RB", Helvetica, sans-serif;
+    }
+  }

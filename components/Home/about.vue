@@ -1,6 +1,6 @@
 <template>
     <div>
-    <Title />
+    <!-- <Title title="About" /> -->
       <div class="app-container" >
           <div class="flex justify-between items-center py-1">
     
@@ -8,7 +8,6 @@
       </div>
     </div>
   </template>
-  import 
   <script setup>
   </script>
   
